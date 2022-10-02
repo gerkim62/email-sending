@@ -178,7 +178,8 @@
     }
 
     const email = makeEmail({ to: 'smurge2311@ueab.ac.ke', subject: 'Testing', message: 'hi, this is just a test email' })
-    sendEmail(email)
+    const res = sendEmail(email)
+alert(res)
 
 //End
 
